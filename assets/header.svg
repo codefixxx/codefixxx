@@ -1,109 +1,181 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 980 260" width="100%" height="100%">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 980 280" width="100%" height="100%">
   <defs>
-    <!-- Dark Void Background Gradient matching Portfolio -->
+    <!-- Background Canvas Palette -->
     <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#090a0d" />
-      <stop offset="50%" stop-color="#0e1118" />
+      <stop offset="45%" stop-color="#0c0f16" />
       <stop offset="100%" stop-color="#090a0d" />
     </linearGradient>
 
-    <!-- Emerald to Cyan Accent Gradient -->
-    <linearGradient id="accent-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+    <!-- Emerald-Cyan Accent Flow -->
+    <linearGradient id="flow-cyan-emerald" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#10b981" />
-      <stop offset="50%" stop-color="#2dd4bf" />
-      <stop offset="100%" stop-color="#06b6d4" />
+      <stop offset="50%" stop-color="#06b6d4" />
+      <stop offset="100%" stop-color="#10b981" />
     </linearGradient>
 
-    <!-- Subtle Glow Spheres -->
-    <radialGradient id="glow-emerald" cx="12%" cy="35%" r="45%">
-      <stop offset="0%" stop-color="#10b981" stop-opacity="0.18" />
+    <linearGradient id="wave-grad-1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#10b981" stop-opacity="0.0" />
+      <stop offset="30%" stop-color="#10b981" stop-opacity="0.4" />
+      <stop offset="70%" stop-color="#06b6d4" stop-opacity="0.4" />
+      <stop offset="100%" stop-color="#06b6d4" stop-opacity="0.0" />
+    </linearGradient>
+
+    <linearGradient id="wave-grad-2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#06b6d4" stop-opacity="0.0" />
+      <stop offset="40%" stop-color="#06b6d4" stop-opacity="0.3" />
+      <stop offset="80%" stop-color="#10b981" stop-opacity="0.3" />
+      <stop offset="100%" stop-color="#10b981" stop-opacity="0.0" />
+    </linearGradient>
+
+    <!-- Atmospheric Glows -->
+    <radialGradient id="glow-emerald" cx="15%" cy="30%" r="55%">
+      <stop offset="0%" stop-color="#10b981" stop-opacity="0.2" />
       <stop offset="100%" stop-color="#10b981" stop-opacity="0" />
     </radialGradient>
-    <radialGradient id="glow-cyan" cx="88%" cy="65%" r="45%">
-      <stop offset="0%" stop-color="#06b6d4" stop-opacity="0.14" />
+    <radialGradient id="glow-cyan" cx="85%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#06b6d4" stop-opacity="0.18" />
       <stop offset="100%" stop-color="#06b6d4" stop-opacity="0" />
     </radialGradient>
 
-    <!-- Structural Grid Overlay -->
-    <pattern id="grid-pattern" width="36" height="36" patternUnits="userSpaceOnUse">
-      <path d="M 36 0 L 0 0 0 36" fill="none" stroke="rgba(255,255,255,0.035)" stroke-width="1" />
+    <!-- Structural Matrix Pattern -->
+    <pattern id="matrix-grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M 32 0 L 0 0 0 32" fill="none" stroke="rgba(255,255,255,0.03)" stroke-width="1" />
+      <circle cx="32" cy="32" r="0.75" fill="rgba(16, 185, 129, 0.2)" />
     </pattern>
 
-    <!-- Pulse Animation on Live Dot -->
+    <!-- Flow Field Kinetic Animations mimicking GSAP / WebGL -->
     <style>
-      @keyframes pulse {
-        0% { r: 3.5; opacity: 1; }
-        50% { r: 5.5; opacity: 0.4; }
-        100% { r: 3.5; opacity: 1; }
+      @keyframes wave-drift-1 {
+        0% { transform: translateX(0px) translateY(0px) scaleY(1); }
+        50% { transform: translateX(-40px) translateY(8px) scaleY(1.15); }
+        100% { transform: translateX(0px) translateY(0px) scaleY(1); }
       }
-      .pulse-dot {
-        animation: pulse 2.2s infinite ease-in-out;
+      @keyframes wave-drift-2 {
+        0% { transform: translateX(0px) translateY(0px) scaleY(1); }
+        50% { transform: translateX(50px) translateY(-10px) scaleY(0.85); }
+        100% { transform: translateX(0px) translateY(0px) scaleY(1); }
       }
-      .mono-text {
+      @keyframes particle-orbit-1 {
+        0% { transform: translate(180px, 160px); opacity: 0.3; }
+        50% { transform: translate(420px, 130px); opacity: 0.9; }
+        100% { transform: translate(680px, 155px); opacity: 0.2; }
+      }
+      @keyframes particle-orbit-2 {
+        0% { transform: translate(720px, 140px); opacity: 0.2; }
+        50% { transform: translate(500px, 175px); opacity: 0.85; }
+        100% { transform: translate(260px, 145px); opacity: 0.3; }
+      }
+      @keyframes pulse-signal {
+        0%, 100% { opacity: 0.3; r: 3.5; }
+        50% { opacity: 1; r: 5.5; }
+      }
+      .anim-wave-1 {
+        animation: wave-drift-1 10s cubic-bezier(0.45, 0.05, 0.55, 0.95) infinite;
+      }
+      .anim-wave-2 {
+        animation: wave-drift-2 13s cubic-bezier(0.45, 0.05, 0.55, 0.95) infinite;
+      }
+      .anim-p1 {
+        animation: particle-orbit-1 12s cubic-bezier(0.4, 0, 0.2, 1) infinite alternate;
+      }
+      .anim-p2 {
+        animation: particle-orbit-2 15s cubic-bezier(0.4, 0, 0.2, 1) infinite alternate;
+      }
+      .live-beacon {
+        animation: pulse-signal 2.4s ease-in-out infinite;
+      }
+      .mono-code {
         font-family: 'Space Mono', 'SF Mono', Consolas, 'Courier New', monospace;
       }
-      .display-text {
+      .display-sans {
         font-family: 'Space Grotesk', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
       }
     </style>
   </defs>
 
-  <!-- Frame Background -->
-  <rect width="980" height="260" rx="10" fill="url(#bg-grad)" stroke="rgba(255, 255, 255, 0.1)" stroke-width="1" />
-  <rect width="980" height="260" rx="10" fill="url(#grid-pattern)" />
-  <rect width="980" height="260" rx="10" fill="url(#glow-emerald)" />
-  <rect width="980" height="260" rx="10" fill="url(#glow-cyan)" />
+  <!-- Deep Obsidian Canvas Frame -->
+  <rect width="980" height="280" rx="8" fill="url(#bg-grad)" stroke="rgba(255, 255, 255, 0.08)" stroke-width="1" />
+  <rect width="980" height="280" rx="8" fill="url(#matrix-grid)" />
+  <rect width="980" height="280" rx="8" fill="url(#glow-emerald)" />
+  <rect width="980" height="280" rx="8" fill="url(#glow-cyan)" />
 
-  <!-- Top Status Bar -->
-  <g transform="translate(40, 38)">
-    <!-- Status Indicator -->
-    <circle cx="0" cy="-3" r="3.5" fill="#10b981" class="pulse-dot" />
-    <circle cx="0" cy="-3" r="2" fill="#f3f4f8" />
-    <text x="14" y="0" class="mono-text" font-size="11" letter-spacing="2" fill="#10b981">SYSTEM ONLINE</text>
+  <!-- Procedural WebGL-Style Vector Flow Field Waves -->
+  <g opacity="0.75">
+    <path class="anim-wave-1" d="M -50 160 Q 220 110, 490 165 T 1030 155" fill="none" stroke="url(#wave-grad-1)" stroke-width="2" />
+    <path class="anim-wave-2" d="M -50 175 Q 260 215, 520 150 T 1030 180" fill="none" stroke="url(#wave-grad-2)" stroke-width="1.8" />
+    <path d="M -50 150 Q 200 130, 480 160 T 1030 145" fill="none" stroke="rgba(255,255,255,0.06)" stroke-width="1" />
+  </g>
+
+  <!-- Drifting Flow Particles -->
+  <circle class="anim-p1" r="3.5" fill="#10b981" filter="drop-shadow(0 0 6px #10b981)" />
+  <circle class="anim-p2" r="3" fill="#06b6d4" filter="drop-shadow(0 0 6px #06b6d4)" />
+
+  <!-- Top Metadata & Coordinates Bar -->
+  <g transform="translate(40, 42)">
+    <circle cx="0" cy="-3" r="4" fill="#10b981" class="live-beacon" />
+    <circle cx="0" cy="-3" r="2" fill="#ffffff" />
+    <text x="14" y="0" class="mono-code" font-size="11" letter-spacing="2" fill="#10b981">AYUSH MISHRA // PORTFOLIO THEME</text>
     
-    <text x="340" y="0" class="mono-text" font-size="11" letter-spacing="1.5" fill="#8b93a4">28.6139° N, 77.2090° E</text>
-    <text x="900" y="0" class="mono-text" font-size="11" letter-spacing="1.5" fill="#06b6d4" text-anchor="end">PORTFOLIO-AYUSH-MISHRA.VERCEL.APP ↗</text>
+    <text x="490" y="0" class="mono-code" font-size="11" letter-spacing="1.5" fill="#8b93a4" text-anchor="middle">
+      28.6139° N, 77.2090° E
+    </text>
+    
+    <text x="900" y="0" class="mono-code" font-size="11" letter-spacing="1.5" fill="#06b6d4" text-anchor="end">
+      PORTFOLIO-AYUSH-MISHRA.VERCEL.APP ↗
+    </text>
+    
     <line x1="-5" y1="16" x2="900" y2="16" stroke="rgba(255, 255, 255, 0.08)" stroke-width="1" />
   </g>
 
-  <!-- Hero Typography -->
-  <g transform="translate(40, 114)">
-    <text x="0" y="0" class="display-text" font-size="42" font-weight="800" letter-spacing="1.5" fill="#f3f4f8">AYUSH MISHRA</text>
-    <text x="0" y="32" class="mono-text" font-size="13" font-weight="600" letter-spacing="2.5" fill="url(#accent-grad)">
-      AI ENGINEER · FULL-STACK DEVELOPER · OPEN SOURCE
+  <!-- Hero Typography Header -->
+  <g transform="translate(40, 126)">
+    <text x="0" y="0" class="display-sans" font-size="44" font-weight="800" letter-spacing="1" fill="#f3f4f8">
+      AYUSH MISHRA
     </text>
-    <text x="0" y="58" class="display-text" font-size="13.5" fill="#8b93a4" font-weight="400">
-      Designing production LLM workflows, low-latency architectures, and resilient web platforms.
+    <text x="0" y="34" class="mono-code" font-size="14" font-weight="600" letter-spacing="2.5" fill="url(#flow-cyan-emerald)">
+      FULL-STACK &amp; AI SYSTEMS ENGINEER
+    </text>
+    <text x="0" y="62" class="display-sans" font-size="14" fill="#8b93a4" font-weight="400">
+      Mathematics &amp; Computing · Distributed Machine Learning · High-Throughput Web Architectures
     </text>
   </g>
 
-  <!-- Bottom Metric & Focus Pills -->
-  <g transform="translate(40, 222)">
+  <!-- Bottom Interactive Focus Grid -->
+  <g transform="translate(40, 238)">
     <line x1="-5" y1="-18" x2="900" y2="-18" stroke="rgba(255, 255, 255, 0.08)" stroke-width="1" />
 
     <g transform="translate(0, 0)">
-      <rect x="0" y="-12" width="145" height="24" rx="4" fill="rgba(16, 185, 129, 0.08)" stroke="rgba(16, 185, 129, 0.25)" stroke-width="1" />
-      <text x="72" y="4" class="mono-text" font-size="10" font-weight="600" letter-spacing="1" fill="#10b981" text-anchor="middle">⚡ MULTI-AGENT</text>
+      <rect x="0" y="-12" width="165" height="26" rx="4" fill="rgba(16, 185, 129, 0.08)" stroke="rgba(16, 185, 129, 0.3)" stroke-width="1" />
+      <text x="82" y="5" class="mono-code" font-size="10" font-weight="600" letter-spacing="1.2" fill="#10b981" text-anchor="middle">
+        ⚡ MULTI-AGENT AI
+      </text>
     </g>
 
-    <g transform="translate(160, 0)">
-      <rect x="0" y="-12" width="135" height="24" rx="4" fill="rgba(6, 182, 212, 0.08)" stroke="rgba(6, 182, 212, 0.25)" stroke-width="1" />
-      <text x="67" y="4" class="mono-text" font-size="10" font-weight="600" letter-spacing="1" fill="#06b6d4" text-anchor="middle">🎙️ VOICE AI</text>
+    <g transform="translate(180, 0)">
+      <rect x="0" y="-12" width="160" height="26" rx="4" fill="rgba(6, 182, 212, 0.08)" stroke="rgba(6, 182, 212, 0.3)" stroke-width="1" />
+      <text x="80" y="5" class="mono-code" font-size="10" font-weight="600" letter-spacing="1.2" fill="#06b6d4" text-anchor="middle">
+        🎙️ SUB-SECOND VOICE
+      </text>
     </g>
 
-    <g transform="translate(310, 0)">
-      <rect x="0" y="-12" width="160" height="24" rx="4" fill="rgba(255, 255, 255, 0.04)" stroke="rgba(255, 255, 255, 0.12)" stroke-width="1" />
-      <text x="80" y="4" class="mono-text" font-size="10" font-weight="600" letter-spacing="1" fill="#f3f4f8" text-anchor="middle">🗺️ SPATIAL &amp; POSTGIS</text>
+    <g transform="translate(355, 0)">
+      <rect x="0" y="-12" width="165" height="26" rx="4" fill="rgba(255, 255, 255, 0.04)" stroke="rgba(255, 255, 255, 0.12)" stroke-width="1" />
+      <text x="82" y="5" class="mono-code" font-size="10" font-weight="600" letter-spacing="1.2" fill="#f3f4f8" text-anchor="middle">
+        🗺️ SPATIAL POSTGIS
+      </text>
     </g>
 
-    <g transform="translate(485, 0)">
-      <rect x="0" y="-12" width="165" height="24" rx="4" fill="rgba(16, 185, 129, 0.08)" stroke="rgba(16, 185, 129, 0.25)" stroke-width="1" />
-      <text x="82" y="4" class="mono-text" font-size="10" font-weight="600" letter-spacing="1" fill="#10b981" text-anchor="middle">🌐 OPEN SOURCE</text>
+    <g transform="translate(535, 0)">
+      <rect x="0" y="-12" width="175" height="26" rx="4" fill="rgba(16, 185, 129, 0.08)" stroke="rgba(16, 185, 129, 0.3)" stroke-width="1" />
+      <text x="87" y="5" class="mono-code" font-size="10" font-weight="600" letter-spacing="1.2" fill="#10b981" text-anchor="middle">
+        🌐 OPEN SOURCE CORE
+      </text>
     </g>
 
-    <g transform="translate(665, 0)">
-      <text x="235" y="4" class="mono-text" font-size="10.5" letter-spacing="1.5" fill="#525a6c" text-anchor="end">
-        B.TECH MATH &amp; COMPUTING
+    <g transform="translate(725, 0)">
+      <text x="175" y="5" class="mono-code" font-size="10.5" letter-spacing="1.5" fill="#525a6c" text-anchor="end">
+        B.TECH M&amp;C (2023–2027)
       </text>
     </g>
   </g>

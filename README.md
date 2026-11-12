@@ -71,7 +71,7 @@
   <tr>
     <td align="center" width="68">
       <a href="https://github.com/vicharanashala/tenali">
-        <img src="https://raw.githubusercontent.com/codefixxx/codefixxx/main/assets/logos/tenali.svg" width="44" alt="Tenali logo" />
+        <img src="https://raw.githubusercontent.com/codefixxx/codefixxx/main/assets/logos/tenali.png" width="44" height="44" alt="Tenali logo" style="border-radius: 50%; object-fit: cover;" />
       </a>
     </td>
     <td>
@@ -95,17 +95,26 @@
 <h2 align="center">GitHub Activity</h2>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/codefixxx/codefixxx/main/assets/snake.svg" alt="Contribution Snake" width="100%" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/codefixxx/codefixxx/output/github-contribution-grid-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/codefixxx/codefixxx/output/github-contribution-grid-snake.svg" />
+    <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/codefixxx/codefixxx/output/github-contribution-grid-snake.svg" width="100%" />
+  </picture>
 </p>
 
-<p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=codefixxx&theme=github_dark" alt="Profile details" width="100%" />
-</p>
+<div align="center">
+  <a href="https://github.com/codefixxx">
+    <img src="https://github-readme-stats.shion.dev/api?username=codefixxx&show_icons=true&bg_color=090a0d&title_color=10b981&text_color=8b93a4&icon_color=06b6d4&border_color=1e293b&include_all_commits=true&count_private=true&custom_title=codefixxx" alt="GitHub stats" height="165" />
+  </a>
+  <a href="https://github.com/codefixxx">
+    <img src="https://streak-stats.demolab.com/?user=codefixxx&background=090A0D&border=1E293B&stroke=10B981&ring=06B6D4&fire=10B981&currStreakNum=F3F4F8&sideNums=F3F4F8&currStreakLabel=10B981&sideLabels=8B93A4&dates=525A6C" alt="GitHub streak" height="165" />
+  </a>
+</div>
 
-<table align="center">
+<table align="center" style="margin-top: 10px;">
   <tr>
     <td width="50%">
-      <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=codefixxx&theme=github_dark" alt="GitHub stats" width="100%" />
+      <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=codefixxx&theme=github_dark" alt="GitHub activity summary" width="100%" />
     </td>
     <td width="50%">
       <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=codefixxx&theme=github_dark" alt="Top languages by repository" width="100%" />
@@ -113,10 +122,10 @@
   </tr>
   <tr>
     <td width="50%">
-      <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=codefixxx&theme=github_dark" alt="Most used language" width="100%" />
+      <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=codefixxx&theme=github_dark" alt="Most committed language" width="100%" />
     </td>
     <td width="50%">
-      <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=codefixxx&theme=github_dark&utcOffset=5.5" alt="Productive time" width="100%" />
+      <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=codefixxx&theme=github_dark&utcOffset=5.5" alt="Productive time distribution" width="100%" />
     </td>
   </tr>
 </table>

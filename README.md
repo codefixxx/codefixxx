@@ -1,21 +1,171 @@
-# 💫 About Me:
- I'm currently working on **AI-powered applications, RAG systems, and real-time voice AI.**<br><br> I'm looking to collaborate on **Open Source, AI/ML, LLM applications, and Full-Stack projects.**<br><br> I'm looking for help with **LLM optimization, scalable architectures, and production-grade AI systems.**<br><br>I'm currently learning **LLM Fine-tuning, Advanced RAG, AI Agents, and System Design.**<br> <br>Ask me about **Full-Stack Development, Python, Machine Learning, RAG, DSA, and Graph Theory.**<br><br> Fun fact: **I love combining Mathematics, Computing, and AI to solve real-world problems.**
+<div align="center">
+  <a href="https://portfolio-ayush-mishra.vercel.app/" target="_blank">
+    <img src="./assets/header.svg" alt="Ayush Mishra — AI Engineer Dossier" width="100%" />
+  </a>
 
-
-## 🌐 Socials:
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/ayush-mishra-2072961a3) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:ayushkmishra332@gmail.com) 
-
-# 💻 Tech Stack:
-![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) ![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white) ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white) ![Go](https://img.shields.io/badge/go-%2300ADD8.svg?style=for-the-badge&logo=go&logoColor=white) ![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white) ![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white) ![Render](https://img.shields.io/badge/Render-%46E3B7.svg?style=for-the-badge&logo=render&logoColor=white) ![Heroku](https://img.shields.io/badge/heroku-%23430098.svg?style=for-the-badge&logo=heroku&logoColor=white) ![Firebase](https://img.shields.io/badge/firebase-%23039BE5.svg?style=for-the-badge&logo=firebase) ![Context-API](https://img.shields.io/badge/Context--Api-000000?style=for-the-badge&logo=react) ![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB) ![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi) ![Flask](https://img.shields.io/badge/flask-%23000.svg?style=for-the-badge&logo=flask&logoColor=white) ![JWT](https://img.shields.io/badge/JWT-black?style=for-the-badge&logo=JSON%20web%20tokens) ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white) ![Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white) ![NestJS](https://img.shields.io/badge/nestjs-%23E0234E.svg?style=for-the-badge&logo=nestjs&logoColor=white) ![Django](https://img.shields.io/badge/django-%23092E20.svg?style=for-the-badge&logo=django&logoColor=white) ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) ![Socket.io](https://img.shields.io/badge/Socket.io-black?style=for-the-badge&logo=socket.io&badgeColor=010101) ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white) ![Vite](https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white) ![Nginx](https://img.shields.io/badge/nginx-%23009639.svg?style=for-the-badge&logo=nginx&logoColor=white) ![Jenkins](https://img.shields.io/badge/jenkins-%232C5263.svg?style=for-the-badge&logo=jenkins&logoColor=white) ![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white) ![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white) ![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white) ![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white) ![Redis](https://img.shields.io/badge/redis-%23DD0031.svg?style=for-the-badge&logo=redis&logoColor=white) ![Prisma](https://img.shields.io/badge/Prisma-3982CE?style=for-the-badge&logo=Prisma&logoColor=white) ![TensorFlow](https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=for-the-badge&logo=TensorFlow&logoColor=white) ![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=for-the-badge&logo=PyTorch&logoColor=white) ![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white) ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white) ![Playwright](https://img.shields.io/badge/-playwright-%232EAD33?style=for-the-badge&logo=playwright&logoColor=white)
-# 📊 GitHub Stats:
-![](https://github-readme-stats.shion.dev/api?username=codefixxx&theme=tokyonight&hide_border=false&include_all_commits=true&count_private=true)<br/>
-![](https://streak-stats.demolab.com/?user=codefixxx&theme=tokyonight&hide_border=false)<br/>
-![](https://github-readme-stats.shion.dev/api/top-langs/?username=codefixxx&theme=tokyonight&hide_border=false&include_all_commits=true&count_private=true&layout=compact)
-
-### 🔝 Top Contributed Repo
-![](https://github-contributor-stats.vercel.app/api?username=codefixxx&limit=5&theme=dark&combine_all_yearly_contributions=true)
+  <p align="center">
+    <a href="https://portfolio-ayush-mishra.vercel.app/">
+      <img src="https://img.shields.io/badge/LIVE%20PORTFOLIO-090A0D?style=for-the-badge&logo=vercel&logoColor=10B981&labelColor=090A0D" alt="Portfolio" />
+    </a>
+    <a href="https://www.linkedin.com/in/ayush-mishra-2072961a3/">
+      <img src="https://img.shields.io/badge/LINKEDIN-090A0D?style=for-the-badge&logo=linkedin&logoColor=06B6D4&labelColor=090A0D" alt="LinkedIn" />
+    </a>
+    <a href="mailto:ayushkmishra332@gmail.com">
+      <img src="https://img.shields.io/badge/DIRECT%20LINE-090A0D?style=for-the-badge&logo=gmail&logoColor=10B981&labelColor=090A0D" alt="Email" />
+    </a>
+    <a href="https://github.com/codefixxx">
+      <img src="https://img.shields.io/badge/GITHUB-090A0D?style=for-the-badge&logo=github&logoColor=F3F4F8&labelColor=090A0D" alt="GitHub" />
+    </a>
+  </p>
+</div>
 
 ---
-[![](https://komarev.com/ghpvc/?username=codefixxx&icon=0&color=0)](https://visitcount.itsvg.in)
 
-<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
+### `01 // ARCHITECTURAL DOSSIER`
+
+> *"Building impactful AI software means bridging advanced model capabilities with reliable, scalable, and resilient full-stack systems."*
+
+I am an **AI Engineer & Systems Builder** studying **Mathematics & Computing at the Central University of Karnataka**. My work centers on translating frontier machine intelligence into production software: multi-agent autonomous workflows, sub-second conversational voice pipelines, and distributed data systems.
+
+```
+┌─────────────────────────┬────────────────────────────────────────────────────────┐
+│ PRIMARY DOMAIN          │ Production Generative AI · Multi-Agent Orchestration   │
+│ SECONDARY DOMAIN        │ Distributed Systems · Real-Time WebRTC / WASM · PostGIS│
+│ ACADEMIC ANCHOR         │ B.Tech in Mathematics & Computing (2023 – 2027)        │
+│ CURRENT AVAILABILITY    │ Open for AI Engineer & High-Scale Full-Stack Roles     │
+│ COORDINATES             │ 28.6139° N, 77.2090° E // Remote                       │
+└─────────────────────────┴────────────────────────────────────────────────────────┘
+```
+
+---
+
+### `02 // PRODUCTION SYSTEMS & FLAGSHIP ARCHITECTURES`
+
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3 align="left">
+        <a href="https://github.com/codefixxx/Multiagent_Research_Assistant">Multiagent Research Assistant</a>
+      </h3>
+      <p>
+        <img src="https://img.shields.io/badge/LangGraph-090A0D?style=flat-square&logo=python&logoColor=10B981" />
+        <img src="https://img.shields.io/badge/FastAPI-090A0D?style=flat-square&logo=fastapi&logoColor=06B6D4" />
+        <img src="https://img.shields.io/badge/Redis_8-090A0D?style=flat-square&logo=redis&logoColor=10B981" />
+        <img src="https://img.shields.io/badge/Playwright-090A0D?style=flat-square&logo=playwright&logoColor=06B6D4" />
+      </p>
+      <p>Distributed research engine orchestrating 5 specialized autonomous agents via parallel fan-out/fan-in graph execution.</p>
+      <ul>
+        <li><b>-70% Latency:</b> Complex deep-research completed in <code>&lt;30s</code> via parallel execution.</li>
+        <li><b>Crash Resilience:</b> Redis state checkpointers with <code>0.5ms</code> idempotency cache, chaos-tested against abrupt node termination.</li>
+        <li><b>3-Tier Scraper:</b> Resilient cascade (HTTPX → Jina Reader → Playwright Stealth) with canonical URL deduplication.</li>
+        <li><b>Hallucination Guard:</b> Automated Citation Validator & RAG Scorer verifying generated claims directly against source chunks.</li>
+        <li><b>Security & Streaming:</b> AES-256-GCM BYOK encryption with in-memory zeroization; <code>&lt;250ms</code> SSE token streams verified by <b>202 automated tests</b>.</li>
+      </ul>
+      <p>
+        <a href="https://multiagent-research-assistant-wmli.onrender.com/dashboard"><b>Live Dashboard ↗</b></a> &nbsp;·&nbsp;
+        <a href="https://github.com/codefixxx/Multiagent_Research_Assistant"><b>Source Specs ↗</b></a>
+      </p>
+    </td>
+    <td width="50%" valign="top">
+      <h3 align="left">
+        <a href="https://github.com/codefixxx/Pothole_map">PotholeMap</a>
+      </h3>
+      <p>
+        <img src="https://img.shields.io/badge/PostgreSQL-090A0D?style=flat-square&logo=postgresql&logoColor=06B6D4" />
+        <img src="https://img.shields.io/badge/PostGIS-090A0D?style=flat-square&logo=postgis&logoColor=10B981" />
+        <img src="https://img.shields.io/badge/BullMQ-090A0D?style=flat-square&logo=redis&logoColor=06B6D4" />
+        <img src="https://img.shields.io/badge/k6-090A0D?style=flat-square&logo=k6&logoColor=10B981" />
+      </p>
+      <p>Full-stack civic-tech infrastructure linking citizens with municipal authorities through spatial intelligence and background workers.</p>
+      <ul>
+        <li><b>Spatial & Vector Clustering:</b> PostGIS municipal routing combined with <code>512-dim</code> embedding deduplication to eliminate duplicate road incident reports.</li>
+        <li><b>Governance Lifecycle:</b> 4-role RBAC engine controlling a 5-stage ticket state machine with tamper-evident audit logging.</li>
+        <li><b>Async Infrastructure:</b> Redis + BullMQ workers processing image compression, spatial indexation, and notification dispatches.</li>
+        <li><b>Load-Tested Throughput:</b> Verified with k6 load suites from <code>0 → 150 Virtual Users</code> and sustained <code>30-VU 90s</code> soak tests under 7 rate-limiting rules.</li>
+      </ul>
+      <p>
+        <a href="https://pothole-map-one.vercel.app/"><b>Live Platform ↗</b></a> &nbsp;·&nbsp;
+        <a href="https://github.com/codefixxx/Pothole_map"><b>Source Specs ↗</b></a>
+      </p>
+    </td>
+  </tr>
+</table>
+
+---
+
+### `03 // OPEN SOURCE & UPSTREAM ENGINEERING`
+
+```
+┌─────────────────────────────────┬────────────────────────────────────────────────────────────┐
+│ UPSTREAM ECOSYSTEM              │ CORE CONTRIBUTIONS & IMPACT                                │
+├─────────────────────────────────┼────────────────────────────────────────────────────────────┤
+│ Tenali                          │ • Designed DAG-based topological learning paths across 90+ │
+│ Adaptive Math Learning Platform │   interactive modules with SVG progress mastery tracking.  │
+│                                 │ • Built non-invasive telemetry layer across micro-apps.    │
+│                                 │ • Engineered centralized math parser & validation engine   │
+│                                 │   (fractions, mixed numbers, coordinates) with Vitest.     │
+├─────────────────────────────────┼────────────────────────────────────────────────────────────┤
+│ kpt / Porch                     │ • Contributed to declarative Kubernetes package            │
+│ (kptdev / Porch Orchestrator)   │   orchestration, configuration editing, and validation.    │
+├─────────────────────────────────┼────────────────────────────────────────────────────────────┤
+│ Grafana Pathfinder              │ • Interactive learning plugin bringing contextual in-app   │
+│ (Grafana Interactive Learning)  │   documentation and telemetry directly to Grafana flows.   │
+├─────────────────────────────────┼────────────────────────────────────────────────────────────┤
+│ Infosys Springboard AI Platform │ • Sub-second voice conversational system (<700ms latency)  │
+│ Voice AI & On-Device Vision     │   via WebRTC + Ultravox with async pre-caching.            │
+│                                 │ • MediaPipe WASM client inference (473 landmarks, 15-25ms) │
+│                                 │   eliminating cloud GPU costs and cutting payload by 80%.  │
+│                                 │ • Batched Celery evaluation pipeline (+65% throughput).    │
+├─────────────────────────────────┼────────────────────────────────────────────────────────────┤
+│ Vi-Slides (VLED Lab)            │ • TypeScript Express backend with repository pattern & DI. │
+│ AI Classroom Sync Platform      │ • Real-time synchronized classroom state via Socket.io.    │
+│                                 │ • Google Generative AI integration for student Q&A.        │
+└─────────────────────────────────┴────────────────────────────────────────────────────────────┘
+```
+
+---
+
+### `04 // TECHNICAL ARSENAL`
+
+<div align="left">
+
+| Cluster | Technologies & Tooling |
+|:---|:---|
+| **AI / ML & Agents** | `LangGraph` · `LLMs / RAG Pipelines` · `Multi-Agent Orchestration` · `Embeddings` · `MediaPipe WASM` · `Ultravox` · `WebRTC` · `Computer Vision` |
+| **Backend & Distributed** | `FastAPI` · `Node.js` · `Express` · `Python` · `TypeScript` · `Celery` · `BullMQ` · `Socket.io` · `REST` · `SSE` · `Idempotency & Caching` |
+| **Datastores & Spatial** | `PostgreSQL` · `PostGIS (Spatial Routing)` · `Redis 8` · `MongoDB` · `Vector Embeddings` |
+| **Frontend & Graphics** | `React 19` · `Next.js (App Router)` · `TypeScript` · `WebGL / OGL` · `GSAP` · `SVG Engineering` · `TailwindCSS` |
+| **Testing & Reliability** | `k6 (Load & Soak Testing)` · `Playwright` · `Vitest` · `Chaos Testing` · `Git` · `CI/CD` |
+
+</div>
+
+---
+
+### `05 // MATHEMATICAL FOUNDATION & EDUCATION`
+
+- **Degree:** Bachelor of Technology in **Mathematics & Computing**
+- **Institution:** Central University of Karnataka *(2023 – 2027)* · **CGPA:** `7.9`
+- **Core Curricula:** Linear Algebra, Mathematics for Machine Learning, Optimization Theory, Graph Theory, System Architecture
+- **Certifications:** Google Cloud Platform (Hack2Skill) · Deep Learning Specialization
+
+---
+
+### `06 // TRANSMISSION CHANNELS`
+
+<p align="center">
+  <a href="https://portfolio-ayush-mishra.vercel.app/" target="_blank">
+    <img src="https://img.shields.io/badge/Live_Portfolio-portfolio--ayush--mishra.vercel.app-10B981?style=for-the-badge&logo=vercel&logoColor=white&labelColor=090A0D" alt="Portfolio" />
+  </a>
+  &nbsp;
+  <a href="https://www.linkedin.com/in/ayush-mishra-2072961a3/" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-ayush--mishra-06B6D4?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=090A0D" alt="LinkedIn" />
+  </a>
+  &nbsp;
+  <a href="mailto:ayushkmishra332@gmail.com">
+    <img src="https://img.shields.io/badge/Email-ayushkmishra332@gmail.com-10B981?style=for-the-badge&logo=gmail&logoColor=white&labelColor=090A0D" alt="Email" />
+  </a>
+</p>
+
+<p align="center">
+  <sub><code>ENGINEERING DOSSIER // AYUSH MISHRA // LATENCY-CRITICAL AI &amp; DISTRIBUTED ARCHITECTURES</code></sub>
+</p>

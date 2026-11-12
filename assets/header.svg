@@ -1,70 +1,110 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 220" width="100%" height="100%">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 980 260" width="100%" height="100%">
   <defs>
+    <!-- Dark Void Background Gradient matching Portfolio -->
     <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#090a0d" />
-      <stop offset="60%" stop-color="#0d1017" />
+      <stop offset="50%" stop-color="#0e1118" />
       <stop offset="100%" stop-color="#090a0d" />
     </linearGradient>
 
-    <linearGradient id="cyan-emerald" x1="0%" y1="0%" x2="100%" y2="0%">
+    <!-- Emerald to Cyan Accent Gradient -->
+    <linearGradient id="accent-grad" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#10b981" />
+      <stop offset="50%" stop-color="#2dd4bf" />
       <stop offset="100%" stop-color="#06b6d4" />
     </linearGradient>
 
-    <radialGradient id="glow-emerald" cx="15%" cy="30%" r="55%">
-      <stop offset="0%" stop-color="#10b981" stop-opacity="0.14" />
+    <!-- Subtle Glow Spheres -->
+    <radialGradient id="glow-emerald" cx="12%" cy="35%" r="45%">
+      <stop offset="0%" stop-color="#10b981" stop-opacity="0.18" />
       <stop offset="100%" stop-color="#10b981" stop-opacity="0" />
     </radialGradient>
-
-    <radialGradient id="glow-cyan" cx="85%" cy="40%" r="50%">
-      <stop offset="0%" stop-color="#06b6d4" stop-opacity="0.12" />
+    <radialGradient id="glow-cyan" cx="88%" cy="65%" r="45%">
+      <stop offset="0%" stop-color="#06b6d4" stop-opacity="0.14" />
       <stop offset="100%" stop-color="#06b6d4" stop-opacity="0" />
     </radialGradient>
 
-    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
-      <path d="M 32 0 L 0 0 0 32" fill="none" stroke="rgba(255,255,255,0.03)" stroke-width="1" />
+    <!-- Structural Grid Overlay -->
+    <pattern id="grid-pattern" width="36" height="36" patternUnits="userSpaceOnUse">
+      <path d="M 36 0 L 0 0 0 36" fill="none" stroke="rgba(255,255,255,0.035)" stroke-width="1" />
     </pattern>
+
+    <!-- Pulse Animation on Live Dot -->
+    <style>
+      @keyframes pulse {
+        0% { r: 3.5; opacity: 1; }
+        50% { r: 5.5; opacity: 0.4; }
+        100% { r: 3.5; opacity: 1; }
+      }
+      .pulse-dot {
+        animation: pulse 2.2s infinite ease-in-out;
+      }
+      .mono-text {
+        font-family: 'Space Mono', 'SF Mono', Consolas, 'Courier New', monospace;
+      }
+      .display-text {
+        font-family: 'Space Grotesk', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      }
+    </style>
   </defs>
 
-  <style>
-    .mono { font-family: 'Space Mono', 'SF Mono', Consolas, 'Courier New', monospace; }
-    .display { font-family: 'Space Grotesk', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-weight: 700; }
-    .label { font-size: 11px; letter-spacing: 2px; fill: #8b93a4; }
-  </style>
+  <!-- Frame Background -->
+  <rect width="980" height="260" rx="10" fill="url(#bg-grad)" stroke="rgba(255, 255, 255, 0.1)" stroke-width="1" />
+  <rect width="980" height="260" rx="10" fill="url(#grid-pattern)" />
+  <rect width="980" height="260" rx="10" fill="url(#glow-emerald)" />
+  <rect width="980" height="260" rx="10" fill="url(#glow-cyan)" />
 
-  <!-- Background -->
-  <rect width="960" height="220" rx="8" fill="url(#bg-grad)" stroke="rgba(255, 255, 255, 0.08)" stroke-width="1" />
-  <rect width="960" height="220" rx="8" fill="url(#grid)" />
-  <rect width="960" height="220" fill="url(#glow-emerald)" />
-  <rect width="960" height="220" fill="url(#glow-cyan)" />
-
-  <!-- Top bar -->
-  <g transform="translate(36, 36)">
-    <circle cx="0" cy="-3" r="3" fill="#10b981" />
-    <text x="12" y="0" class="mono label">GITHUB PROFILE</text>
-    <text x="888" y="0" class="mono label" text-anchor="end">PORTFOLIO-AYUSH-MISHRA.VERCEL.APP</text>
-    <line x1="-5" y1="14" x2="888" y2="14" stroke="rgba(255, 255, 255, 0.08)" stroke-width="1" />
+  <!-- Top Status Bar -->
+  <g transform="translate(40, 38)">
+    <!-- Status Indicator -->
+    <circle cx="0" cy="-3" r="3.5" fill="#10b981" class="pulse-dot" />
+    <circle cx="0" cy="-3" r="2" fill="#f3f4f8" />
+    <text x="14" y="0" class="mono-text" font-size="11" letter-spacing="2" fill="#10b981">SYSTEM ONLINE</text>
+    
+    <text x="340" y="0" class="mono-text" font-size="11" letter-spacing="1.5" fill="#8b93a4">28.6139° N, 77.2090° E</text>
+    <text x="900" y="0" class="mono-text" font-size="11" letter-spacing="1.5" fill="#06b6d4" text-anchor="end">PORTFOLIO-AYUSH-MISHRA.VERCEL.APP ↗</text>
+    <line x1="-5" y1="16" x2="900" y2="16" stroke="rgba(255, 255, 255, 0.08)" stroke-width="1" />
   </g>
 
-  <!-- Title & Headline -->
-  <g transform="translate(36, 105)">
-    <text x="0" y="0" class="display" font-size="38" letter-spacing="1" fill="#f3f4f8">AYUSH MISHRA</text>
-    <text x="0" y="28" class="mono" font-size="13" letter-spacing="2" fill="url(#cyan-emerald)">
-      AI ENGINEER &amp; FULL-STACK DEVELOPER
+  <!-- Hero Typography -->
+  <g transform="translate(40, 114)">
+    <text x="0" y="0" class="display-text" font-size="42" font-weight="800" letter-spacing="1.5" fill="#f3f4f8">AYUSH MISHRA</text>
+    <text x="0" y="32" class="mono-text" font-size="13" font-weight="600" letter-spacing="2.5" fill="url(#accent-grad)">
+      AI ENGINEER · FULL-STACK DEVELOPER · OPEN SOURCE
     </text>
-    <text x="0" y="52" class="display" font-size="13" fill="#8b93a4" font-weight="400">
-      Building AI applications, scalable architectures, and open-source systems.
+    <text x="0" y="58" class="display-text" font-size="13.5" fill="#8b93a4" font-weight="400">
+      Designing production LLM workflows, low-latency architectures, and resilient web platforms.
     </text>
   </g>
 
-  <!-- Bottom Pills -->
-  <g transform="translate(36, 188)">
-    <text x="0" y="0" class="mono" font-size="10" letter-spacing="1.5" fill="#10b981">● AI/ML</text>
-    <text x="80" y="0" class="mono" font-size="10" letter-spacing="1.5" fill="#8b93a4">·</text>
-    <text x="96" y="0" class="mono" font-size="10" letter-spacing="1.5" fill="#06b6d4">● FULL-STACK</text>
-    <text x="210" y="0" class="mono" font-size="10" letter-spacing="1.5" fill="#8b93a4">·</text>
-    <text x="226" y="0" class="mono" font-size="10" letter-spacing="1.5" fill="#10b981">● OPEN SOURCE</text>
-    <text x="346" y="0" class="mono" font-size="10" letter-spacing="1.5" fill="#8b93a4">·</text>
-    <text x="362" y="0" class="mono" font-size="10" letter-spacing="1.5" fill="#06b6d4">● SYSTEM DESIGN</text>
+  <!-- Bottom Metric & Focus Pills -->
+  <g transform="translate(40, 222)">
+    <line x1="-5" y1="-18" x2="900" y2="-18" stroke="rgba(255, 255, 255, 0.08)" stroke-width="1" />
+
+    <g transform="translate(0, 0)">
+      <rect x="0" y="-12" width="145" height="24" rx="4" fill="rgba(16, 185, 129, 0.08)" stroke="rgba(16, 185, 129, 0.25)" stroke-width="1" />
+      <text x="72" y="4" class="mono-text" font-size="10" font-weight="600" letter-spacing="1" fill="#10b981" text-anchor="middle">⚡ MULTI-AGENT</text>
+    </g>
+
+    <g transform="translate(160, 0)">
+      <rect x="0" y="-12" width="135" height="24" rx="4" fill="rgba(6, 182, 212, 0.08)" stroke="rgba(6, 182, 212, 0.25)" stroke-width="1" />
+      <text x="67" y="4" class="mono-text" font-size="10" font-weight="600" letter-spacing="1" fill="#06b6d4" text-anchor="middle">🎙️ VOICE AI</text>
+    </g>
+
+    <g transform="translate(310, 0)">
+      <rect x="0" y="-12" width="160" height="24" rx="4" fill="rgba(255, 255, 255, 0.04)" stroke="rgba(255, 255, 255, 0.12)" stroke-width="1" />
+      <text x="80" y="4" class="mono-text" font-size="10" font-weight="600" letter-spacing="1" fill="#f3f4f8" text-anchor="middle">🗺️ SPATIAL &amp; POSTGIS</text>
+    </g>
+
+    <g transform="translate(485, 0)">
+      <rect x="0" y="-12" width="165" height="24" rx="4" fill="rgba(16, 185, 129, 0.08)" stroke="rgba(16, 185, 129, 0.25)" stroke-width="1" />
+      <text x="82" y="4" class="mono-text" font-size="10" font-weight="600" letter-spacing="1" fill="#10b981" text-anchor="middle">🌐 OPEN SOURCE</text>
+    </g>
+
+    <g transform="translate(665, 0)">
+      <text x="235" y="4" class="mono-text" font-size="10.5" letter-spacing="1.5" fill="#525a6c" text-anchor="end">
+        B.TECH MATH &amp; COMPUTING
+      </text>
+    </g>
   </g>
 </svg>
